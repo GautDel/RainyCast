@@ -59,7 +59,7 @@ function App() {
           setInit(true);
           setTimeout(() => {
             setLoaded(true);
-          }, 10000);
+          }, 3000);
         }, 1000);
       }
 
@@ -71,7 +71,7 @@ function App() {
           setInit(true);
           setTimeout(() => {
             setLoaded(true);
-          }, 10000);
+          }, 3000);
         }, 1000);
       } else {
         setMsg("Determining your location...");
