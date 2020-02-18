@@ -43,7 +43,7 @@ function App() {
           setInit(true);
           setTimeout(() => {
             setLoaded(true);
-          }, 10000);
+          }, 3000);
         }, 1000);
 
         // Passes location values to Weather API
