@@ -1,0 +1,27 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.overflow-x {
+  overflow-x: scroll;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.interface {
+  position: relative;
+  width: 95vw;
+  margin: auto;
+  z-index: 2;
+}

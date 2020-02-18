@@ -1,0 +1,4 @@
+{
+  "DARK_SKY_KEY": "a25b399e1a26cf17d2a7888c87f1d205",
+  "mongoURI": "mongodb+srv://gauthier:M87PmtbZdT0xUbll@rainycast-qbmhr.mongodb.net/test?retryWrites=true&w=majority"
+}

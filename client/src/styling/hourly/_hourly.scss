@@ -1,0 +1,32 @@
+.hourly-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 100%;
+  margin: auto;
+  border-bottom: 0.1rem solid rgba(#fff, 0.5);
+
+  .hour-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem 2rem;
+
+    .hour {
+      font-size: 1.6rem;
+    }
+    .temp {
+      font-size: 1.6rem;
+      font-weight: 300;
+      color: rgba(#fff, 0.8);
+    }
+
+    img {
+      margin: 1rem 0;
+      width: 3rem;
+    }
+  }
+}
+
+
+

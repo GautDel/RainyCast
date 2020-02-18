@@ -1,0 +1,112 @@
+@media (max-width: 600px) and (orientation: landscape) {
+  .forecast-style {
+    padding: 10% 0 8%;
+  }
+}
+
+
+@media (min-width: 650px) {
+  .time {
+    span {
+      font-size: 2rem;
+    }
+  }
+
+  .loader {
+    svg {
+      width: 20%;
+    }
+  
+    p {
+      font-size: 1.6rem;
+    }
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .loader {
+    svg {
+      width: 20%;
+    }
+  
+    p {
+      font-size: 2.2rem;
+    }
+  }
+
+  .time {
+    top: 2.5%;
+    span {
+      font-size: 2.6rem;
+    }
+  }
+
+  h1 {
+    font-size: 10rem;
+  }
+  
+  h2 {
+    font-size: 2.8rem;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+  }
+  
+  
+  .interface {
+    width: 85vw;
+  }
+  .time {
+    span {
+      font-size: 2.5rem;
+    }
+  } 
+
+  .daily-container {
+    .daily-card {
+      .daily-header-container {
+        width: 33%;
+  
+        .daily-header {
+          font-size: 2rem;
+        }
+      }
+      .daily-temp-container {
+  
+        .temp {
+          font-size: 1.8rem;
+        }  
+      }
+    }
+  }
+
+  .hourly-container {
+  
+    .hour-card {
+  
+      .hour {
+        font-size: 1.8rem;
+      }
+      .temp {
+        font-size: 1.8rem;
+      }
+  
+      img {
+        width: 5rem;
+      }
+    }
+  } 
+
+  .day {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .interface {
+    width: 70vw;
+  }
+}

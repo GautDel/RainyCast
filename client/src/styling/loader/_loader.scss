@@ -1,0 +1,38 @@
+.loader {
+  height: 100vh;
+  position: fixed;
+  margin: auto;
+  transform: translate(0,0);
+  background-color: #393939;
+  z-index: 5;
+  width:100vw;
+
+  .sun {
+    animation: scaleUp 2s infinite;
+  }
+
+  .moon {
+    animation: scaleDown 2s infinite;
+  }
+
+  svg {
+    left: 50%;
+    position: absolute;
+    top: 40%;
+    width: 35%;
+  }
+
+  p {
+    font-size: 1.6rem;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 95vw;
+  }
+}
+
+.loaded-anim {
+  animation: loaded 1s 2s forwards;
+}

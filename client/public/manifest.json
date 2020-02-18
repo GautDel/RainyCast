@@ -1,0 +1,20 @@
+{
+  "short_name": "Windy",
+  "name": "Windy",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#393939",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/imgs/logos/windy-logo-300.png",
+      "sizes": "300x300",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgs/logos/windy-logo-520.png",
+      "sizes": "520x520",
+      "type": "image/png"
+    }
+  ]
+}

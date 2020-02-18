@@ -1,0 +1,18 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2rem;
+  width: 100%;
+
+  a {
+    color: rgba(#fff, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition:all 0.5s;
+
+    &:hover {
+      color: rgba(#fff, 1);
+    }
+  }
+}
