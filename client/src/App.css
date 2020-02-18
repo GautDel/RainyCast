@@ -213,7 +213,8 @@ a {
       justify-content: center;
       width: 35%; }
       .daily-container .daily-card .daily-img-container img {
-        width: 4rem; }
+        width: 4rem;
+        height: 4rem; }
     .daily-container .daily-card .daily-temp-container {
       display: flex;
       flex-direction: row;
@@ -241,6 +242,21 @@ footer {
 @media (max-width: 600px) and (orientation: landscape) {
   .forecast-style {
     padding: 10% 0 8%; } }
+
+@media (max-width: 670px) and (orientation: landscape) {
+  .loader svg {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 35%; }
+  .loader p {
+    font-size: 1.6rem;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 95vw; } }
 
 @media (min-width: 650px) {
   .time span {

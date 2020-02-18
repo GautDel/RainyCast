@@ -2,7 +2,34 @@
   .forecast-style {
     padding: 10% 0 8%;
   }
+
+  
+
 }
+
+@media (max-width: 670px) and (orientation: landscape) {
+  .loader {
+  
+    svg {
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      width: 35%;
+    }
+  
+    p {
+      font-size: 1.6rem;
+      left: 50%;
+      position: absolute;
+      text-align: center;
+      top: 55%;
+      transform: translate(-50%, -50%);
+      width: 95vw;
+    }
+  }
+
+ }
+
 
 
 @media (min-width: 650px) {
