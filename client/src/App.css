@@ -192,18 +192,16 @@ a {
       width: 3rem; }
 
 .daily-container {
-  width: 100%;
+  overflow: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   border-bottom: 0.1rem solid rgba(255, 255, 255, 0.5);
   margin: auto; }
   .daily-container .daily-card {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 0.8rem 0.5rem;
-    border: 1px solid red; }
+    padding: 0.8rem 0.5rem; }
     .daily-container .daily-card .daily-header-container {
       width: 33%; }
       .daily-container .daily-card .daily-header-container .daily-header {
@@ -213,10 +211,9 @@ a {
     .daily-container .daily-card .daily-img-container {
       display: flex;
       justify-content: center;
-      width: 35%;
-      height: 100%; }
+      width: 35%; }
       .daily-container .daily-card .daily-img-container img {
-        width: 30%; }
+        width: 4rem; }
     .daily-container .daily-card .daily-temp-container {
       display: flex;
       flex-direction: row;
@@ -276,6 +273,8 @@ footer {
     width: 33%; }
     .daily-container .daily-card .daily-header-container .daily-header {
       font-size: 2rem; }
+  .daily-container .daily-card .daily-img-container img {
+    width: 8rem; }
   .daily-container .daily-card .daily-temp-container .temp {
     font-size: 1.8rem; }
   .hourly-container .hour-card .hour {

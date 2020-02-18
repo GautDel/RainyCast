@@ -1,17 +1,15 @@
 .daily-container {
-  width: 100%;
+  overflow: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   border-bottom: 0.1rem solid rgba(#fff, 0.5);
   margin: auto;
 
   .daily-card {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
     padding: 0.8rem 0.5rem;
-    border: 1px solid red;
     .daily-header-container {
       width: 33%;
 
@@ -25,10 +23,9 @@
       display: flex;
       justify-content: center;
       width: 35%;
-      height: 100%;
 
       img {
-        width: 30%;
+        width: 4rem;
       }
     }
 
