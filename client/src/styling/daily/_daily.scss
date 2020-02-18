@@ -11,12 +11,11 @@
     flex-direction: row;
     align-items: center;
     padding: 0.8rem 0.5rem;
-    
+    border: 1px solid red;
     .daily-header-container {
       width: 33%;
 
       .daily-header {
-
         font-size: 1.6rem;
         font-weight: 300;
         justify-content: center;
@@ -26,9 +25,10 @@
       display: flex;
       justify-content: center;
       width: 35%;
+      height: 100%;
 
       img {
-        width: 25%;
+        width: 30%;
       }
     }
 

@@ -202,7 +202,8 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.8rem 0.5rem; }
+    padding: 0.8rem 0.5rem;
+    border: 1px solid red; }
     .daily-container .daily-card .daily-header-container {
       width: 33%; }
       .daily-container .daily-card .daily-header-container .daily-header {
@@ -212,9 +213,10 @@ a {
     .daily-container .daily-card .daily-img-container {
       display: flex;
       justify-content: center;
-      width: 35%; }
+      width: 35%;
+      height: 100%; }
       .daily-container .daily-card .daily-img-container img {
-        width: 25%; }
+        width: 30%; }
     .daily-container .daily-card .daily-temp-container {
       display: flex;
       flex-direction: row;
