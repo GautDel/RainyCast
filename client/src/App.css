@@ -290,6 +290,7 @@ footer {
     .daily-container .daily-card .daily-header-container .daily-header {
       font-size: 2rem; }
   .daily-container .daily-card .daily-img-container img {
+    height: 8rem;
     width: 8rem; }
   .daily-container .daily-card .daily-temp-container .temp {
     font-size: 1.8rem; }
