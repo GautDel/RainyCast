@@ -115,7 +115,6 @@
   }
 
   .hourly-container {
-  
     .hour-card {
   
       .hour {
@@ -139,5 +138,82 @@
 @media (min-width: 1300px) {
   .interface {
     width: 70vw;
+  }
+}
+
+@media (min-width: 2000px) {
+
+  .time {
+    span {
+      font-size: 3.5rem;
+    }
+  } 
+
+  h1 {
+    font-size: 14rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  h3 {
+    font-size: 3.2rem;
+  }
+
+  .hourly-container {
+    .hour-card {
+  
+      .hour {
+        font-size: 2.4rem;
+      }
+      .temp {
+        font-size: 2.4rem;
+      }
+  
+      img {
+        width: 8rem;
+        height: 8rem;
+      }
+    }
+  } 
+
+  .daily-container {
+    .daily-card {
+      .daily-header-container {
+        width: 33%;
+  
+        .daily-header {
+          font-size: 3rem;
+        }
+      }
+
+      .daily-img-container {
+        img {
+          height: 12rem;
+          width: 12rem;
+        }
+      }
+      .daily-temp-container {
+  
+        .temp {
+          font-size: 3rem;
+        }  
+      }
+    }
+  }
+  .day {
+    font-size: 3rem;
+  }
+  
+
+  .interface {
+    width: 60vw;
+  }
+
+  footer {
+    a {
+      font-size: 2rem;
+    }
   }
 }

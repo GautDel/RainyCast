@@ -1,13 +1,16 @@
+const sslRedirect = require("heroku-ssl-redirect");
 const express = require("express");
 const config = require("config");
-const axios = require("axios")
+const axios = require("axios");
 const cors = require("cors");
 const connectDB = require("./config/db.js");
 const path = require("path");
 const app = express();
 
-// Allow CORS
-app.use(cors())
+// Middleware
+app.use(cors());
+app.use(sslRedirect());
+
 
 // Body Parser
 app.use(express.json({ extended: false }));
